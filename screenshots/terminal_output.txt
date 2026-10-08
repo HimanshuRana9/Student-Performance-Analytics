@@ -1,0 +1,126 @@
+﻿
+========================================================================================
+                          STUDENT PERFORMANCE ANALYTICS SYSTEM                          
+========================================================================================
+
+DATASET OVERVIEW
+----------------------------------------------------------------------------------------
+Total Student Records : 30
+Total Attributes      : 13
+Attributes Included   : student_id, name, department, year, age, attendance, python_marks, ml_marks, projects_completed, total_marks, average_marks, grade, result
+Validation Status     : Passed (No missing/corrupt values)
+
+STUDENT PERFORMANCE SUMMARY
+----------------------------------------------------------------------------------------
+ID    Name       Department   Attendance   Python     ML   Total   Average  Grade   Result 
+----------------------------------------------------------------------------------------
+1     Aarav      CSE                 82%       78     81     159     79.50    B      Pass  
+2     Ananya     AIML                91%       91     94     185     92.50   A+      Pass  
+3     Arjun      CSE                 76%       67     72     139     69.50    C      Pass  
+4     Diya       ECE                 88%       82     79     161     80.50    A      Pass  
+5     Rohan      AIML                69%       88     91     179     89.50    A      Pass  
+6     Sneha      CSE                 95%       95     89     184     92.00   A+      Pass  
+7     Karan      ISE                 73%       73     76     149     74.50    B      Pass  
+8     Priya      AIML                84%       85     88     173     86.50    A      Pass  
+9     Aditya     ECE                 92%       76     74     150     75.00    B      Pass  
+10    Isha       CSE                 78%       69     71     140     70.00    B      Pass  
+11    Rahul      AIML                87%       93     96     189     94.50   A+      Pass  
+12    Meera      ISE                 66%       64     68     132     66.00    C      Pass  
+13    Vivek      CSE                 81%       81     85     166     83.00    A      Pass  
+14    Nisha      ECE                 89%       87     83     170     85.00    A      Pass  
+15    Akash      AIML                94%       90     92     182     91.00   A+      Pass  
+16    Kavya      CSE                 72%       72     75     147     73.50    B      Pass  
+17    Ritvik     ISE                 79%       79     82     161     80.50    A      Pass  
+18    Pooja      AIML                86%       86     90     176     88.00    A      Pass  
+19    Varun      CSE                 91%       94     95     189     94.50   A+      Pass  
+20    Aditi      ECE                 74%       68     70     138     69.00    C      Pass  
+21    Manish     CSE                 68%       61     65     126     63.00    C      Pass  
+22    Sanya      AIML                96%       97     98     195     97.50   A+      Pass  
+23    Yash       ISE                 83%       83     87     170     85.00    A      Pass  
+24    Neha       CSE                 77%       75     78     153     76.50    B      Pass  
+25    Harsh      ECE                 90%       89     91     180     90.00   A+      Pass  
+26    Riya       AIML                85%       92     93     185     92.50   A+      Pass  
+27    Dev        CSE                 71%       70     73     143     71.50    B      Pass  
+28    Simran     ISE                 93%       84     86     170     85.00    A      Pass  
+29    Nikhil     AIML                88%       96     97     193     96.50   A+      Pass  
+30    Tanvi      ECE                 80%       77     80     157     78.50    B      Pass  
+----------------------------------------------------------------------------------------
+
+CLASS PERFORMANCE
+----------------------------------------------------------------------------------------
+Total Students Enrolled : 30
+Overall Class Average   : 82.35%
+Highest Average Score   : 97.50% (Sanya, AIML)
+Lowest Average Score    : 63.00% (Manish, CSE)
+Students Passed         : 30
+Students Failed         : 0
+Overall Pass Percentage : 100.00%
+
+SUBJECT-WISE PERFORMANCE
+----------------------------------------------------------------------------------------
+[Python]
+  Average Score   : 81.40
+  Highest Score   : 97
+  Lowest Score    : 61
+  Median Score    : 82.50
+  Std Deviation   : 10.08
+[Machine Learning]
+  Average Score   : 83.30
+  Highest Score   : 98
+  Lowest Score    : 65
+  Median Score    : 84.00
+  Std Deviation   : 9.37
+
+Best Performing Subject  : Machine Learning (Average: 83.30)
+Weakest Performing Subject: Python (Average: 81.40)
+
+TOP PERFORMERS (TOP 5 STUDENTS)
+----------------------------------------------------------------------------------------
+Rank   Student ID   Name           Department      Average   Grade    Result 
+---------------------------------------------------------------------------
+#1     22           Sanya          AIML             97.50%    A+       Pass  
+#2     29           Nikhil         AIML             96.50%    A+       Pass  
+#3     19           Varun          CSE              94.50%    A+       Pass  
+#4     11           Rahul          AIML             94.50%    A+       Pass  
+#5     2            Ananya         AIML             92.50%    A+       Pass  
+---------------------------------------------------------------------------
+
+ATTENDANCE ANALYSIS
+----------------------------------------------------------------------------------------
+Average Attendance      : 82.60%
+Highest Attendance      : 96.00%
+Lowest Attendance       : 66.00%
+Low Attendance (< 75%)  : 7 student(s)
+  Students with < 75% attendance:
+    - Rohan (ID: 5, AIML): 69% (Avg: 89.50%)
+    - Karan (ID: 7, ISE): 73% (Avg: 74.50%)
+    - Meera (ID: 12, ISE): 66% (Avg: 66.00%)
+    - Kavya (ID: 16, CSE): 72% (Avg: 73.50%)
+    - Aditi (ID: 20, ECE): 74% (Avg: 69.00%)
+    - Manish (ID: 21, CSE): 68% (Avg: 63.00%)
+    - Dev (ID: 27, CSE): 71% (Avg: 71.50%)
+Attendance-Marks Correlation : 0.754 (Positive Association)
+
+DEPARTMENT-WISE PERFORMANCE
+----------------------------------------------------------------------------------------
+Department     Students    Avg Python        Avg ML    Avg Overall   Avg Attendance
+------------------------------------------------------------------------------------
+AIML                  9         90.89         93.22         92.06%           86.67%
+ECE                   6         79.83         79.50         79.67%           85.50%
+ISE                   5         76.60         79.80         78.20%           78.80%
+CSE                  10         76.20         78.40         77.30%           79.10%
+------------------------------------------------------------------------------------
+
+FINAL INSIGHTS
+----------------------------------------------------------------------------------------
+1. Top Academic Performer: Sanya (ID: 22, AIML) secured highest average of 97.5% (Grade A+).
+2. Lowest Academic Performer: Manish (ID: 21, CSE) obtained average of 63.0% (Grade C).
+3. Subject Comparison: Machine Learning performed best with an average of 83.3%, outperforming Python (81.4%).
+4. Overall Class Performance: Class average is 82.35% across 30 students with a 100.0% pass rate (30 Passed, 0 Failed).
+5. Department Highlights: AIML led with the highest departmental average of 92.06% across 9 enrolled students.
+6. Attendance Overview: Average student attendance stands at 82.6%, ranging from a minimum of 66.0% to a peak of 96.0%.
+7. Attendance Pattern Observation: Dataset exhibits a positive correlation (0.754) between attendance and average academic marks.
+
+========================================================================================
+                            Analysis completed successfully.                            
+========================================================================================
