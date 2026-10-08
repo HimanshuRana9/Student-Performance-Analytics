@@ -114,9 +114,10 @@ Student-Performance-Analytics/
 ├── README.md                   # Project overview, instructions, rules, and documentation
 ├── Project_Documentation.md    # Detailed academic technical report
 ├── .gitignore                  # Git ignore rules for Python artifacts and caches
-└── screenshots/                # Execution logs and screenshot capture guidance
+└── screenshots/                # Execution logs and screenshot evidence
+    ├── terminal_output.png     # High-resolution visual terminal capture
     ├── terminal_output.txt     # Raw execution output log from main.py
-    └── README.md               # Instructions for capturing visual evidence
+    └── README.md               # Screenshot manifest and capture guide
 ```
 
 ---

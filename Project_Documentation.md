@@ -163,6 +163,7 @@ This prevents a student who scores exceptionally high in one subject from passin
 The system produces a structured, readable terminal output. All evidence is archived inside the `screenshots/` directory:
 - `screenshots/terminal_output.png`: High-resolution terminal capture of the entire execution.
 - `screenshots/terminal_output.txt`: Raw console output log.
+- `screenshots/README.md`: Screenshot manifest and manual capture guide.
 
 ```text
 ========================================================================================
